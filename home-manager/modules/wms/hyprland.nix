@@ -6,7 +6,7 @@
     settings = {
       "$mainMod" = "SUPER";
 
-      monitor = ",preferred,auto,1";
+      monitor = ",preffered,auto,1";
 
       env = [
         "XDG_CURRENT_DESKTOP,Hyprland"
@@ -25,7 +25,7 @@
       input = {
         kb_layout = "us,ru";
         kb_variant = "lang";
-        kb_options = "grp:caps_toggle";
+        kb_options = "grp:alt_shift_toggle";
 
         follow_mouse = 1;
 
@@ -129,6 +129,7 @@
         "$mainMod, D, exec, wofi --show drun"
         "$mainMod, P, pseudo, # dwindle"
         "$mainMod, J, togglesplit, # dwindle"
+        "$mainMod, W, exec, firefox"
 
         # Move focus with mainMod + arrow keys
         "$mainMod, left,  movefocus, l"
